@@ -65,7 +65,6 @@ export const Chat: React.FC = () => {
                     </div>
                     <div className="media-content">
                       <p className="title is-4">{msg.displayName}</p>
-                      <time dateTime="2016-1-1">DATE</time>
                     </div>
                   </div>
 
