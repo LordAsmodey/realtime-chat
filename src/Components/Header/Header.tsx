@@ -33,24 +33,24 @@ export const Header: React.FC = () => {
           </Link>
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <a href="/#" className="navbar-link">
+            <Link to="/#" className="navbar-link">
               More
-            </a>
+            </Link>
 
             <div className="navbar-dropdown">
-              <a href="/#" className="navbar-item">
+              <Link to="/" className="navbar-item">
                 About
-              </a>
-              <a href="/#" className="navbar-item">
+              </Link>
+              <Link to="/" className="navbar-item">
                 Jobs
-              </a>
-              <a href="/#" className="navbar-item">
+              </Link>
+              <Link to="/" className="navbar-item">
                 Contact
-              </a>
+              </Link>
               <hr className="navbar-divider" />
-              <a href="/#" className="navbar-item">
+              <Link to="/" className="navbar-item">
                 Report an issue
-              </a>
+              </Link>
             </div>
           </div>
         </div>
